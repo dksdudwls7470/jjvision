@@ -2,7 +2,7 @@
 
 ## Install DHT11 sensor
 ```
-git clone http://github.com/adafruit_Python_DHT.git
+git clone http://github.com/adafruit/Adafruit_Python_DHT.git
 cd Adafruit_Python_DHT
 sudo python setup.py install
 cd Adafruit_Python_DHT/examples

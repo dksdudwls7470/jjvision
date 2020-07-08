@@ -1,3 +1,13 @@
-# jjvision
+# 전주비전대 Project
 
-<pre>jjvisio </pre>
+## Install DHT11 sensor
+```
+git clone http://github.com/adafruit_Python_DHT.git
+cd Adafruit_Python_DHT
+sudo python setup.py install
+cd Adafruit_Python_DHT/examples
+```
+  - run
+  ```
+  python AdafruitDHT.py 11 4
+  ```

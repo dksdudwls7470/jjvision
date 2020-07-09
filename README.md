@@ -62,9 +62,9 @@ sudo service grafana-server start
 
 # 깃허브 사용방법
 ```
-파일불러오기 : git clone (자기 깃허브 주소 및 파일명까지)
+파일 불러 오기 : git clone (자기 깃 허브 주소 및 파일명까지)
+파일 올리기 : git push멀까요~
 ```
-
 ## vim설정
 ```
 set ne = 맨앞에 번호출력

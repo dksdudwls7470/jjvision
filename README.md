@@ -69,7 +69,14 @@ sudo service grafana-server start
 ```
 set ne = 맨앞에 번호출력
 set cindent = c언어 사용할때
-set ts = 탭을 눌르면 4칸씩 띄어짐
+set ts = 4 = 탭을 눌르면 4칸씩 띄어짐
+set softtabstop=4
+set bg=dark
+set expandtab
+let python_version_2 = 1
+let python_highlight_all = 1
+filetype indent plugin on
+
 if has("syntax") 
     syntax on
 end if =syntax를 가진 파일이면 syntax기능사용(컬러를 준다)

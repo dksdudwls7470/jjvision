@@ -13,7 +13,6 @@ cd Adafruit_Python_DHT/examples
   ```
 
 
-
 # InfluxDB Installation
 
 ## 1. Repository의 GPS Key를 더하기
@@ -59,4 +58,19 @@ curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo a
 ## 4. 프로그램 실행
 ```
 sudo service grafana-server start
+```
+
+# 깃허브 사용방법
+```
+파일불러오기 : git clone (자기 깃허브 주소 및 파일명까지)
+```
+
+## vim설정
+```
+set ne = 맨앞에 번호출력
+set cindent = c언어 사용할때
+set ts = 탭을 눌르면 4칸씩 띄어짐
+if has("syntax") 
+    syntax on
+end if =syntax를 가진 파일이면 syntax기능사용(컬러를 준다)
 ```

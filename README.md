@@ -66,8 +66,8 @@ sudo service grafana-server start
 파일 푸시 : git push 멀까요 ~
 설정 : sudo raspi-config
 vim 편집기 설정 : 
-vnc설정 : vnc다운 후 vncserver 하고 윈도우 창에서 vnc 실행 그런게 있다 정도
-
+vnc 설정 : vnc 다운 후 vncserver
+재부팅 : sudo reboot
 
 ```
 ## vim설정
